@@ -10,7 +10,15 @@
 /* ROOT */
 
 .main {
-  margin: 3vw 4vw;
+  position: relative;
+  margin: 3vw 4vw 0px 4vw;
+  min-height: 100vh;
+}
+
+@media screen and (min-width: 1500px) {
+  .main {
+    margin: 2vw 8vw 0px 8vw;
+  }
 }
 
 /* RESET  */

@@ -1,4 +1,3 @@
-import img from '../../assets/img/head_accueil.jpg'
 import './headsection.css'
 
 function HeadSection() {
@@ -10,5 +9,3 @@ function HeadSection() {
 }
 
 export default HeadSection
-
-// VARIABLE BACKGROUND IMG POUR ADAPTER LE HEADER

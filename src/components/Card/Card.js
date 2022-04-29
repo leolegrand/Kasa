@@ -1,5 +1,6 @@
 import './card.css'
 import { useFetch } from '../../utils/hooks/useFetch'
+import { NavLink } from 'react-router-dom'
 
 function Card() {
   const { data } = useFetch('data.json')
@@ -10,15 +11,11 @@ function Card() {
     arrOfData.push(data[key])
   })
 
-  return arrOfData.map((i) => (
-    <a
-      href="#"
-      className="card"
-      style={{ backgroundImage: `url(${i.cover})` }}
-      key={i.id}
-    >
-      <h2>{i.title}</h2>
-    </a>
+  return arrOfData.map((i, index) => (
+    <NavLink to={'/product=' + i.id} className="card" key={index}>
+      <img className="card__img" src={i.cover} alt="" />
+      <h2 className="card__title">{i.title}</h2>
+    </NavLink>
   ))
 }
 
