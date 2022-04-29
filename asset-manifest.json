@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/leolegrand/LeoLegrand_11_20042022/static/css/main.9cb7aa26.css",
+    "main.js": "/leolegrand/LeoLegrand_11_20042022/static/js/main.1222747f.js",
+    "static/media/head_about_large.jpg": "/leolegrand/LeoLegrand_11_20042022/static/media/head_about_large.5e30ecd5364ddd46499c.jpg",
+    "static/media/head_accueil.jpg": "/leolegrand/LeoLegrand_11_20042022/static/media/head_accueil.8dbc3e4ffb4f7b0b3bc8.jpg",
+    "static/media/head_about.jpg": "/leolegrand/LeoLegrand_11_20042022/static/media/head_about.d5a2f63c9ade7f0f6334.jpg",
+    "static/media/logo_kasa.svg": "/leolegrand/LeoLegrand_11_20042022/static/media/logo_kasa.a6101328193bb3191cbcb50c120ec0d1.svg",
+    "index.html": "/leolegrand/LeoLegrand_11_20042022/index.html",
+    "static/media/rating_star.svg": "/leolegrand/LeoLegrand_11_20042022/static/media/rating_star.6870d270bf24c77b6cb6da4a51d85c40.svg",
+    "static/media/rating_star_highlighted.svg": "/leolegrand/LeoLegrand_11_20042022/static/media/rating_star_highlighted.436cdaa58c6c68e5ff88584373bcd2b1.svg",
+    "static/media/chevron.svg": "/leolegrand/LeoLegrand_11_20042022/static/media/chevron.8af8181aca356827188c3642bf0cfe8b.svg",
+    "main.9cb7aa26.css.map": "/leolegrand/LeoLegrand_11_20042022/static/css/main.9cb7aa26.css.map",
+    "main.1222747f.js.map": "/leolegrand/LeoLegrand_11_20042022/static/js/main.1222747f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9cb7aa26.css",
+    "static/js/main.1222747f.js"
+  ]
+}
