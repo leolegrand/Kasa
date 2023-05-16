@@ -1,7 +1,7 @@
 import React from 'react'
 import './rating.css'
-import star from '../../assets/img/rating_star.svg'
-import starHighlighted from '../../assets/img/rating_star_highlighted.svg'
+import star from '../../assets/img/star.svg'
+import starHighlighted from '../../assets/img/star_highlighted.svg'
 
 const Rating = ({ props }) => {
   let ratingArray = []

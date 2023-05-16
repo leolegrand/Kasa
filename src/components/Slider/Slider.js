@@ -14,7 +14,6 @@ const Slider = ({ props }) => {
   }
 
   const sliderPrev = () => {
-    console.log(props)
     if (index === 0) {
       setIndex(props.length - 1)
     } else {
@@ -43,6 +42,7 @@ const Slider = ({ props }) => {
           className="chevron-prev chevron-slider"
           alt=""
         />
+        <span className='slider__count'>{index+1}/{props.length}</span>
         <img className="slider__img" src={props[index]} alt={props} />
       </div>
     )

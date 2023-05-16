@@ -13,7 +13,7 @@
   font-weight: 700;
 }
 .error-page p {
-  margin-top: 50px;
+  margin: 50px;
   font-size: 18px;
   color: var(--primary-color);
   font-weight: 500;

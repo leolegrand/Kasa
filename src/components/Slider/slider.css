@@ -1,5 +1,5 @@
 .slider {
-  margin-top: 1em;
+  margin-top: 30px;
   margin-bottom: 2em;
   position: relative;
   height: 255px;
@@ -13,6 +13,19 @@
   object-fit: cover;
   opacity: 0;
   animation: appearing 1s ease-in-out forwards;
+}
+
+.slider__count{
+  display: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  z-index: 10;
+  bottom: 25px;
+  left: 50%;
+  right: 50%;
+  transform: translate(50%);
+  position: absolute;
 }
 
 @keyframes appearing {
@@ -51,8 +64,14 @@
     height: 415px;
     border-radius: 25px;
   }
+  .slider__count{
+    display: block;
+  }
   .chevron-slider {
     height: 80px;
     width: 47px;
   }
+  
 }
+
+

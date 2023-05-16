@@ -1,5 +1,6 @@
 import React from 'react'
 import Dropdown from '../components/Dropdown/Dropdown'
+import Summary from '../components/Summary/Summary'
 import HeadSectionSecondary from '../components/HeadSectionSecondary/HeadSectionSecondary'
 
 const aboutInformations = [
@@ -27,7 +28,7 @@ const About = () => {
       <HeadSectionSecondary />
       <div className="dropdown-wrapper">
         {aboutInformations.map((info, index) => {
-          return <Dropdown props={info.body} title={info.title} key={index} />
+          return <Summary props={info.body} title={info.title} key={index} />
         })}
       </div>
     </div>

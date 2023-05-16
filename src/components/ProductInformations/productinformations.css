@@ -18,6 +18,8 @@
 }
 
 .product__tag {
+  box-sizing: border-box;
+  height: 18px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -93,7 +95,9 @@
   }
   .product__tag {
     font-size: 14px;
-    padding: 0.5rem 2rem;
+    border-radius: 10px;
+    padding: 5px 40px;
+    height: 25px;
   }
   .product-host {
     display: flex;
@@ -121,4 +125,5 @@
     justify-content: space-between;
     gap: 10px;
   }
+  
 }

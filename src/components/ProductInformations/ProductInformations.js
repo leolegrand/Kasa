@@ -1,7 +1,7 @@
 import React from 'react'
-import Dropdown from '../Dropdown/Dropdown'
 import Rating from '../Rating/Rating'
 import './productinformations.css'
+import Summary from '../Summary/Summary'
 
 const ProductInformations = ({ props }) => {
   const fullName = props.host.name
@@ -40,8 +40,8 @@ const ProductInformations = ({ props }) => {
         </div>
       </div>
       <div className="dropdown-parent">
-        <Dropdown props={props.description} title={'Description'} />
-        <Dropdown props={props.equipments} title={'Equipements'} />
+        <Summary props={props.description} title={'Description'} />
+        <Summary props={props.equipments} title={'Equipements'} />
       </div>
     </div>
   )
